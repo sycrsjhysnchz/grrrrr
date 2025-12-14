@@ -1,0 +1,89 @@
+/* Basic reset and body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5; 
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --- Registration Container Styling --- */
+
+.registration-container {
+    width: 380px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+/* Header Styling (Dark Blue/Teal background from the image) */
+.form-title {
+    background-color: #173f5f; 
+    color: #fff;
+    padding: 15px 0;
+    margin: -20px -20px 25px -20px; /* Extends background to the edges */
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* --- Form and Input Styling --- */
+
+.registration-form {
+    padding: 0 10px;
+}
+
+.input-group {
+    margin-bottom: 12px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.half-width {
+    flex: 1; /* Makes both groups equal width in the row */
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box; 
+    font-size: 0.9rem;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.registration-form input::placeholder {
+    color: #999;
+}
+
+/* --- Get Started Button Styling (Teal color from the image) --- */
+
+.get-started-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #006680; /* Teal color matching the button */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.get-started-btn:hover {
+    background-color: #006666;
+}
